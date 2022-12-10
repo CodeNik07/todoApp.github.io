@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Lato:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Finger Paint', cursive;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+/* Header 1 Start*/
+.container .header1{
+    /* background-color: yellow; */
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.container .header1 h1{
+    padding: 20px;
+    color: #E63946;
+}
+.container .header1 .inp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .header1 .inp .todo-inp{
+    width: 450px;
+    padding: 8px;
+    font-size: medium;
+    border: 2px solid #E63946;
+}
+.container .header1 .inp .submit-inp{
+    width: 150px;
+    padding: 8px;
+    font-size: medium;
+    background-color: #E63946;
+    color: white;
+    border: 2px solid #E63946;
+    cursor: pointer;
+}
+.container .header1 .inp .submit-inp:hover{
+    background-color: white;
+    color: #E63946;
+    border: 2px solid white;
+    cursor: pointer;
+}
+/* Header 1 End */
+
+/* Header 2 Start */
+.container .header2{
+    margin: 20px;
+    padding: 8px;
+}
+.container .header2 h2{
+    margin: 10px;
+    padding: 5px;
+    color: #ADB5BD;
+}
+.container .header2 hr{
+    margin-left: 13px;
+    margin-right: 13px;
+    border: 1px solid #E63946;
+}
+/* Header 2 End */
+
+/* Todo Start */
+.container .header2 .todo{
+    margin: 10px;
+    /* background-color: gray; */
+    height: 350px;
+}
+.container .header2 .todo ul{
+    width: 100%;
+    list-style: none;
+}
+.container .header2 .todo .todo-details{
+    /* width: 1000px; */
+    /* margin: 4px; */
+    margin-top: 8px;
+    margin-left: 4px;
+    margin-right: 8px;
+    padding: 4px;
+    display: flex;
+    border: 1px solid #003049;
+}
+.container .header2 .todo .todo-details p{
+    width: 1000px;
+    margin: 2px;
+}
+.container .header2 .todo .todo-details .logo-edt-del{
+    /* width: 200px; */
+    margin: 12px;
+    margin-left: 20px;
+    padding: 4px;
+    width: 80px;
+    background-color: #003049;
+    color: white;
+    cursor: pointer;
+}
+
+/* Todo End */
+
+/* Footer Start */
+.footer{
+    background-color: #003049;
+    padding: 6px;
+}
+.footer .contact{
+    display: flex;
+}
+.footer .contact h4{
+    color: white;
+    margin-right: 25px;
+    margin-top: 2px;
+}
+.footer .contact img{
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.footer .contact{
+    justify-content: center;
+}
+
+/* Footer End */
+
+
